@@ -2,7 +2,7 @@
 <package type="addon"
          name="nuxeo-advanced-document-blob-audit"
          version="@VERSION@">
-  <title>Nuxeo Advanced Document Blob Audit</title>
+  <title>Nuxeo Labs Advanced Document Blob Audit</title>
   <description>
     Audits what actually changed inside a binary (Office, PDF, text-based) between 2 versions.
   </description>
