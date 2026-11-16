@@ -25,9 +25,10 @@ Allow about 2 h for everything; the core formats (part A) take 30 min.
 ### 1.1 Deploy the plugin and its configuration
 
 1. Build the package: `mvn clean install` at the root of the repository. The package
-   is `nuxeo-advanced-document-blob-audit-package/target/nuxeo-advanced-document-blob-audit-2025.1.0-SNAPSHOT.zip`.
+   is `nuxeo-advanced-document-blob-audit-package/target/nuxeo-advanced-document-blob-audit-<version>.zip`
+   (`<version>`: the version in the root `pom.xml`).
 2. Install it in the Nuxeo container the way your compose file installs local packages (for example
-   `nuxeoctl mp-install /path/in/container/nuxeo-advanced-document-blob-audit-2025.1.0-SNAPSHOT.zip`).
+   `nuxeoctl mp-install /path/in/container/nuxeo-advanced-document-blob-audit-<version>.zip`).
 3. Mount the configuration so that it ends in `nxserver/config` (the file name must end with
    `-config.xml`):
 

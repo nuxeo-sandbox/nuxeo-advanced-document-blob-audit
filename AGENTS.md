@@ -35,7 +35,7 @@ extension point; image inventories go to `imageExtractors`. The diff engine is f
 
 ## Layout
 
-Maven multi-module, parent `org.nuxeo:nuxeo-parent:2025.24`, version `2025.1.0-SNAPSHOT`.
+Maven multi-module, parent `org.nuxeo:nuxeo-parent:2025.24`; the plugin version is the one in the root `pom.xml`.
 
 - `nuxeo-advanced-document-blob-audit-core/` — all Java, all contributions, and the Web UI.
   - `src/main/java/org/nuxeo/audit/advanced/blob/`:
