@@ -409,6 +409,7 @@ What each test class covers, and the test resources, are listed in [`AGENTS.md`]
 The campaign under `test-campaign/` tests the installed package on a running Nuxeo (Docker Compose, with MongoDB and OpenSearch): 28 scenarios, run by hand in Web UI or by an agent over the REST API, each step with its expected outcome. Use a local, disposable instance only. Prerequisites and how to run it: [`test-campaign/README.md`](test-campaign/README.md).
 
 ## Support
+
 **These features are not part of the Nuxeo Production platform.**
 
 These solutions are provided for inspiration and we encourage customers to use them as code samples and learning
